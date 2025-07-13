@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moraturrón - Turrón de Maíz Morado</title>
+  <title>Productos Naturales</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -19,13 +19,19 @@
       padding: 2rem;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 3rem;
+    nav {
+      background-color: #f3e5f5;
+      text-align: center;
+      padding: 1rem;
     }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
+    nav a {
+      margin: 0 1rem;
+      color: #5e348b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
     }
     section {
       padding: 2rem;
@@ -60,12 +66,12 @@
     .diagrama img {
       display: block;
       margin: 2rem auto;
-      max-width: 700px;  /* Puedes ajustar esto */
+      max-width: 700px;
       width: 100%;
       height: auto;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
+    }
     footer {
       background-color: #5e348b;
       color: white;
@@ -76,62 +82,95 @@
   </style>
 </head>
 <body>
-
   <header>
-    <h1>Moraturrón</h1>
-    <p>“El dulce morado que despierta tus sentidos”</p>
+    <h1>Productos Naturales</h1>
+    <p>“Desde nuestras raíces, directo a tu mesa”</p>
   </header>
 
-<section class="marketing">
-    <h2>¡Prueba lo que el mundo amará!</h2>
-    <p>
-      ✨ 100% Natural<br>
-      ☕ Perfecto para acompañar tu café o mate<br>
-      ♥ Alto en grasas, alto en sabor<br>
-      🌿 Colores y sabores sin aditivos<br>
-      🌟 Hecho a mano con amor peruano
+  <nav>
+    <a href="#turron">Cullicrunch (Turrón de Maíz Morado)</a>
+    <a href="#bebida">Sonqo Jora (Bebida Ancestral)</a>
+  </nav>
+
+  <section id="turron">
+    <div class="marketing">
+      <h2>¡Prueba lo que el mundo amará!</h2>
+      <p>
+        ✨ 100% Natural<br>
+        ☕ Perfecto para acompañar tu café o mate<br>
+        ♥ Alto en grasas, alto en sabor<br>
+        🌿 Colores y sabores sin aditivos<br>
+        🌟 Hecho a mano con amor peruano
     </p>
     <div class="call-to-action">
       <a href="#pedido">Haz tu pedido ahora</a>
     </div>
-  </section>
 
-  <section class="intro">
-    <h2>Una tradición reinventada</h2>
-    <p>
-      Moraturrón nace de la fusión entre el clásico turrón peruano y la riqueza ancestral del maíz morado.
+    </div>
+
+    <div class="intro">
+      <h2>Cullicrunch (Turrón de Maíz Morado)</h2>
+      <p>
+        Cullicrunch nace de la fusión entre el clásico turrón peruano y la riqueza ancestral del maíz morado.
       Cada bocado es una explosión de sabor, color y tradición. Ideal para compartir en familia, celebrar o disfrutar como un lujo cotidiano.
       Hecho con amor, insumos naturales y ese toque morado que lo hace único.
-    </p>
-  </section>
+      </p>
+    </div>
 
-  <section class="intro">
-    <h2>Fotos del procedimiento</h2>
-    <div class="galeria">
-      <!-- Aquí puedes reemplazar las URLs por tus propias imágenes -->
-      <div><img src="1.jpg" class="h-24 mx-auto mb-2"><strong>Obtención de harina de maíz morado</strong></div>
-      <div><img src="2.jpg" class="h-24 mx-auto mb-2"><strong>Hervido de la coronta del maíz morado</strong></div>
-      <div><img src="3.jpg" class="h-24 mx-auto mb-2"><strong>Preparación de la masa del turrón</strong></div>
-      <div><img src="4.jpg" class="h-24 mx-auto mb-2"><strong>Horneado del turrón</strong></div>
-      <div><img src="5.jpg" class="h-24 mx-auto mb-2"><strong>Baño de miel y decoración</strong></div>
-      <div><img src="6.jpg" class="h-24 mx-auto mb-2"><strong>Turrón terminado</strong></div>
+    <div class="intro">
+      <h2>Fotos del procedimiento</h2>
+      <div class="galeria">
+        <div><img src="1.jpg"><strong>Obtención de harina de maíz morado</strong></div>
+        <div><img src="2.jpg"><strong>Hervido de la coronta del maíz morado</strong></div>
+        <div><img src="3.jpg"><strong>Preparación de la masa del turrón</strong></div>
+        <div><img src="4.jpg"><strong>Horneado del turrón</strong></div>
+        <div><img src="5.jpg"><strong>Baño de miel y decoración</strong></div>
+        <div><img src="6.jpg"><strong>Turrón terminado</strong></div>
+      </div>
+    </div>
+
+    <div class="diagrama">
+      <h2>Diagrama de flujo del proceso</h2>
+      <img src="diagrama.jpg" alt="Diagrama de flujo de elaboración">
     </div>
   </section>
 
-<section class="diagrama">
-    <h2>Diagrama de flujo del proceso</h2>
-    <img src="diagrama.jpg" alt="Diagrama de flujo de elaboración">
+<section id="bebida">
+    <div class="marketing">
+<h2>¡Descubre el sabor que conecta con tus raíces!</h2>
+    <p>
+       🌽 Rica en probióticos naturales<br>
+       🍋 Sin aditivos ni conservantes<br>
+       🧊 Ideal para tomar fría en días calurosos o templada en noches especiales<br>
+       🔮 Inspirada en las bebidas ceremoniales de los Andes
+    </p>
+
+  <section id="bebida">
+    <div class="intro">
+      <h2>Sonqo Jora (Bebida Ancestral)</h2>
+      <p>
+        Nuestra Bebida Ancestral de Jora es una fusión milenaria de tradición y frescura. Elaborada cuidadosamente a base de harina de jora, azúcar de caña y 
+un toque vibrante de limón natural, esta bebida refresca el cuerpo y reconecta con nuestras raíces.
+
+Con un sabor ligeramente ácido y dulzón, es perfecta para compartir en reuniones familiares o acompañar una buena comida.
+      </p>
+    </div>
+    <div class="galeria">
+      <div><img src="bebida1.jpg"><strong>Maíz morado seleccionado</strong></div>
+      <div><img src="bebida2.jpg"><strong>Cocción con especias naturales</strong></div>
+      <div><img src="bebida3.jpg"><strong>Bebida servida lista para tomar</strong></div>
+    </div>
+
   </section>
 
   <section class="contacto" id="pedido">
-    <h2>¡Contáctanos y próximamente en delivery!</h2>
+    <h2>¡Contáctanos y haz tu pedido!</h2>
     <p>Pedidos al WhatsApp: <strong>+51 903 060 259</strong><br>
     Email: <strong>farid.huallpacuna@unmsm.edu.pe</strong></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Moraturrón | Tradición que endulza el alma</p>
+    <p>&copy; 2025 Productos Naturales | Tradición que nutre el alma</p>
   </footer>
-
 </body>
 </html>
